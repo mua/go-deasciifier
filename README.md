@@ -21,7 +21,7 @@ func main() {
 
 There is also a command line tool for deasciifying text. You can install it with 
 ```bash
-$ go get github.com/mua/deasciifier/cmd/deasciify
+$ go install github.com/mua/go-deasciifier/cmd/deasciify
 ```
 and use it like this:
 
