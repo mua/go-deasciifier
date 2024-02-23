@@ -1,3 +1,3 @@
-module github.com/mua/deasciifier
+module github.com/mua/go-deasciifier
 
 go 1.20

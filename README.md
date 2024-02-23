@@ -20,7 +20,11 @@ func main() {
 // Output: dünyanın en güzel şehri istanbul
 ```
 
-There is also a command line tool for deasciifying text. You can install it with `go get github.com/mua/deasciifier/cmd/deasciify` and use it like this:
+There is also a command line tool for deasciifying text. You can install it with 
+```bash
+$ go get github.com/mua/deasciifier/cmd/deasciify
+```
+and use it like this:
 
 ```bash
 $ deasciify -s "dunyanin en guzel sehri istanbul"
@@ -30,4 +34,3 @@ $ echo "dunyanin en guzel sehri istanbul" > file.txt
 $ deasciify -f file.txt
 dünyanın en güzel şehri istanbul
 ```
-

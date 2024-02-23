@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mua/deasciifier"
+	"github.com/mua/go-deasciifier"
 )
 
 func deasciifyString(input string) string {
