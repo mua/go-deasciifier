@@ -9,12 +9,11 @@ package main
 
 import (
     "fmt"
-    "github.com/mua/deasciifier"
+    "github.com/mua/go-deasciifier"
 )
 
 
 func main() {
-    deasciifier := deasciifier.NewDeasciifier()
     fmt.Println(deasciifier.Deasciify("dunyanin en guzel sehri istanbul"))
 }
 // Output: dünyanın en güzel şehri istanbul
